@@ -1,0 +1,105 @@
+*{
+    color: white;
+    font-family: cursive;
+    text-shadow: 1px 1px 0 #000,1px -1px 0 #000, -1px 1px 0 #000,-1px -1px 0 #000;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    width: 100%;
+    border-bottom:10px black solid;
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    background-color: #808080;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.nav{
+    margin: 0% 10%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 4em;
+}
+
+.icon{
+    font-size: 4em;
+    color: #000;
+}
+
+h3{
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 1px;
+}
+
+.subicon1{
+    font-size: 4em;
+    color: red;
+}
+
+.subicon2{
+    font-size: 4em;
+    color: blue;
+}
+
+.subicon3{
+    font-size: 4em;
+    color: yellow;
+}
+
+.iconn{
+    font-size: 8em;
+    color: #c0c0c0;
+    float: right;
+}
+
+#robot{
+    padding-right: 2%;
+}
+
+footer{
+    height: 150px;
+    background: linear-gradient(#0000,rgb(127,127,127,0.2),rgb(127,127,127,0.4),rgb(127,127,127,0.6));
+}
+
+.fot{
+    padding: 0px 200px;
+    position: relative;
+    top: 75px;
+}
+
+.fot a {
+    box-shadow: none;
+    font-size: 30px;
+    font-weight: 100;
+    color: #000;
+}
+
+dl div{
+    padding: 20px;
+    margin: 10px;
+    border: #fff 2px solid;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.473);
+}
