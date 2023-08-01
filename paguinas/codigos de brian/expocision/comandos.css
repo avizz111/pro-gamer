@@ -1,0 +1,54 @@
+body {
+    background-color: yellow;
+    border: 13px solid black;
+
+}
+
+footer{
+    background-color: aliceblue;
+}
+
+h1 {
+    color: black;
+    font-size: 150;
+    
+}
+
+#a{
+    font-size: 90;
+    
+}
+
+#b{
+    font-size: 30;
+}
+
+#c{
+    font-size: 90;
+}
+
+#d{
+    font-size: 40;
+}
+
+.a1{
+    font-size: 90;
+}
+
+.a2{
+    font-size: 30;
+}
+
+.a3{
+    font-size: 40;
+}
+
+.box{
+    width: auto;
+    height: auto;
+    background-color: rgb(15, 212, 15);
+}
+
+img{
+    border: 10px solid black;
+}
