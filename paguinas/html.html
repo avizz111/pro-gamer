@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="icon" href="../imagenes/logo-PTibSsoc8-transformed.png" type="img/icon">
+    <link rel="stylesheet" href="../estilos/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/tarjetas.css">
+    <link rel="stylesheet" href="../estilos/cubo.css">
+    <title>Pro Game</title>
+</head>
+<body>
+        <div class="cubo_r">
+            <div class="arriba_r"></div>
+            <div>
+                <span style="--r:0;"></span>
+                <span style="--r:1;"></span>
+                <span style="--r:2;"></span>
+                <span style="--r:3;"></span>
+            </div>
+        </div>
+    <header>
+        <img src="../imagenes/hea.png" id="header"></img>
+    </header>
+    <nav>
+        <ul id="nav">
+            <li class="nav"><a href="../index.html">Información</a></li>
+            <li class="nav"><a href="../paguinas/nosotros.html">Nosotros</a></li>
+            <li class="nav"><a href="../paguinas/mas paginas.html">Más paginas</a></li>
+        </ul>
+    </nav>
+    <h1><i class="fa-brands fa-html5 thtml"></i></h1>
+    <article>
+        <h2>¿Qué es el HTML?</h2>
+        <p>HTML es un lenguaje por marcas de hipertextos que delimitan los parametros de las paguinas web, se que esto es complicado así que lo simplificaremos.</p>
+        <br><br>
+        <p class="ejemplos">
+            &lt;p id:"example"&gt;Hello word!&lt;/p&gt;
+        </p>
+        <p>&larr; Esto es una etiqueta de hipertexto</p>
+        <br><br>
+        <p>En estas se pueden definir distin tos parametros para tu paguina como videos, imagenes, hipervinculos, etc. Existen un total de 142 etiquetas lo cual nos da una amplia cantidad de objetos que podemos poner en nuestra paguina web pero no te preocupes que aqui te las explicaremos.</p>
+        <p>Antes de iniciar queremos que entiendas que este es un sitio largo así que si entraste aquí buscando alguna ayuda para alguna paguina web que estes haciendo si la vas a encontrar pero te va a tomar un buen rato así que porfavor esto tomoalo como un curso personal o como un repaso ahora si comencemos.</p>
+    </article>
+    <article>
+        <h2>Partes de las etiquetas</h2>
+        <p>Como te diste cuenta en la etiqueta anterior no contiene una sintaxis complicada y que uno solo deduce pero te explicare como se comporta cada parte. En total contiene cinco partes las cuale son:</p>
+        <ul>
+            <li>Etiqueta de entrada</li>
+            <li>Atributo</li>
+            <li>Propiedades</li>
+            <li>Contenido</li>
+            <li>Etiqueta de cierre</li>
+        </ul>
+        <br><br>
+        <p class="ejemplos">
+            <mark>&lt;p id:"example"&gt;</mark>Hello word!&lt;/p&gt;
+        </p>
+        <br><br><br><br>
+        <p>☝Esto es un tag y se caracteriza portener 3 elementos que delimitan la etiqueta y aparte por que forzosamente cualquier elemento en HTML la contiene.</p>
+        <br><br>
+        <p class="ejemplos">
+            &lt;<mark>p</mark> id:"example"&gt;Hello word!&lt;/p&gt;
+        </p>
+        <br><br><br><br>
+        <p>☝Esta es la etiqueta de entrada y aquí se escribe que es lo que va a contener ya sea un parrafo, una imagen, un video,etc.</p>
+        <br><br>
+        <p class="ejemplos">
+            &lt;p <mark>id</mark>:"example"&gt;Hello word!&lt;/p&gt;
+        </p>
+        <br><br><br><br>
+        <p>☝Este es un atributo y se utiliza para cambiar o da una caracteristica a nuestro elemento tales pueden ser identificadores, clases, colores, estilos, etc. Despues de este siempre se deben de poner dos puntos y abrir comillas dobles para el siguiente elemento; cabe mencionar que este no es algo obligatori que deba de ir en tus tags pero existen algunas etuiquetas que las ocupan forzosamente para funcionar así como el siguiente elemento.</p>
+        <br><br>
+        <p class="ejemplos">
+            &lt;p id:<mark>"example"</mark>&gt;Hello word!&lt;/p&gt;
+        </p>
+        <br><br><br><br>
+        <p>☝Esta es una propiedad y es la modificación que se le hace al atributo, cabe recalcar que como una va de la mano con la otra no puede existir una sin la otra y que la mayoria de las veces tienen cambios muy limitados pero sabiendolos usar podras tener una gran cantidad de variantes en tus paguinas.</p>
+        <br><br>
+        <p class="ejemplos">
+            &lt;p id:"example"&gt;<mark>Hello word!</mark>&lt;/p&gt;
+        </p>
+        <br><br><br><br>
+        <p>☝Esto es el contenido y normalmente solo es texto que uno quiere que este en la pagina, tambien no es obligatorio el contenido ya que un etiquetas como las imagenes o videos no es de tanta relevancia pero si decides poner contenido forzosamente debe de tener la etiqueta de cierre.</p>
+        <br><br>
+        <p class="ejemplos">
+            &lt;p id:"example"&gt;Hello word!<mark>&lt;/p&gt;</mark>
+        </p>
+        <br><br><br><br>
+        <p>☝Esta es la etiqueta de cierre o también conocida como slash y delimita la extenció de una etiqueta, solo se ponen en etiquetas completas y se caracterizan por solo tener una diagonal seguido del nombre de la etiqueta para indicar su cierre.</p>
+    </article>
+    <article>
+        <h2>Tipos de etiquetas</h2>
+        <table class="ejemplos_t">
+            <tr>
+                <th class="ejemplos_t2">Etiqueta completa</th>
+                <th class="ejemplos_t2">Etiqueta vacia</th>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Tienen etiqueta de entrada y de cierre.</td>
+                <td class="ejemplos_t2">Solo tiene la etiqueta de entrada.</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Normalmente solo contienen texto o encierran otras etiquetas.</td>
+                <td class="ejemplos_t2">Contienen archivos multimedia o dan saltos de lineas.</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">&lt;p id="ejemplo"&gt;Hello word!&lt;/p&gt;</td>
+                <td class="ejemplos_t2">&lt;img src="imagenes/oi.png"&gt;</td>
+            </tr>
+        </table>
+    </article>
+    <article>
+        <h2>Todas las etiquetas</h2>
+        <h4>Antes que nada te recomendamos uses Ctrl <i class="fa-solid fa-plus"></i> G para buscar la etiqueta de la quieras saber información</h4>
+        <table class="ejemplos_t3">
+            <tr>
+                <th class="ejemplos_t2">Nombre de etiqueta</th>
+                <th class="ejemplos_t2">Etiqueta</th>
+                <th class="ejemplos_t2">Descripción</th>
+                <th class="ejemplos_t2">Ejemplo</th>    
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Comentario</td>
+                <td class="ejemplos_t2">&lt;!-- --&gt;</td>
+                <td class="ejemplos_t2">Hace un comentario dentro del codigo que no es visible en la paguina</td>
+                <td class="ejemplos_t2">&lt;!--Esto es un comentario--&gt;</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Tipo de documento</td>
+                <td class="ejemplos_t2">&lt;!DOCTYPE></td>
+                <td class="ejemplos_t2">Especifica que el documento esta escrito en fa-html5</td>
+                <td class="ejemplos_t2">&lt;!DOCTYPE></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">hipervinculo</td>
+                <td class="ejemplos_t2">&lt;a&gt;</td>
+                <td class="ejemplos_t2">Te lleva a otra paguina y/o documento al hacer click en ellos. <br>Los hipervinculos son todo lo que esta entre las etiquetas de entrada y las de cierre.</td>
+                <td class="ejemplos_t2">&lt;a href="https://avizz111.github.io/pro-gamer.github.io/paguinas/mas%20paginas.html"&gt;Pro gamer&lt;/a&gt;</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Abrebiatura</td>
+                <td class="ejemplos_t2">&lt;abbr&gt;</td>
+                <td class="ejemplos_t2">Te permite crear una abrebiatura en tu documento</td>
+                <td class="ejemplos_t2">&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Acronimo</td>
+                <td class="ejemplos_t2">&lt;acronym&gt;</td>
+                <td class="ejemplos_t2">Crea acronimos pero esta función fue eliminada en HTML5 así que se recomienda usar la función de abrebiatura ya que es lo mismo.</td>
+                <td class="ejemplos_t2 sin_ejemplo">Esta obsoleto</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Domicilio</td>
+                <td class="ejemplos_t2">&lt;address&gt;</td>
+                <td class="ejemplos_t2">Es una regla de semantica que sirve para indicar una sección del contacto de la empresa. <br>Normalmente va en el &lt;footer&gt; o en el &lt;header&gt;</td>
+                <td class="ejemplos_t2">&lt;address>Escríbenos a: &lt;a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com&lt;/a>&lt;br>Visítanos en: 123 Calle Falsa, Springfield&lt;br>Llámanos al: 555-1234&lt;/address></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Applet</td>
+                <td class="ejemplos_t2">&lt;applet></td>
+                <td class="ejemplos_t2">Se usaba para implementar applets de java pero ya esta eliminada y se recomienda usar tecnologias de javascript</td>
+                <td class="ejemplos_t2 sin_ejemplo">Esta obsoleto</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Area</td>
+                <td class="ejemplos_t2">&lt;area></td>
+                <td class="ejemplos_t2">Es para modificar una imagen de un mapa para su interacción</td>
+                <td class="ejemplos_t2">&lt;area shape="circle" coords="150,150,50" href="pagina2.html" alt="Página 2"></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Articulo</td>
+                <td class="ejemplos_t2">&lt;article></td>
+                <td class="ejemplos_t2">Es para crear una sección que tiene sentido a complemento de otros articulos. <br>Cabe destacar que este se puede dividir en &lt;section>.</td>
+                <td class="ejemplos_t2">&lt;article>&lt;p>soy un parrafo&lt;/p>&lt;/article></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Aparte</td>
+                <td class="ejemplos_t2">&lt;aside></td>
+                <td class="ejemplos_t2">Es para crear una barra lateral que nos de información relacionada pero es de esta pagina. <br>Esta es una etiqueta de semantica así que tendras que ponerla a un lado con css</td>
+                <td class="ejemplos_t2">&lt;aside>&lt;p>no soy de aqui pero me relaciono&lt;/p>&lt;/aside></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Audio</td>
+                <td class="ejemplos_t2">&lt;audio></td>
+                <td class="ejemplos_t2">Sirve para insertar audios a tu paguina, para que funcione no se te olvide poner el atributo controls.</td>
+                <td class="ejemplos_t2">&lt;audio src="audios/musica.mp3" controls>&lt;/audio></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Negritas</td>
+                <td class="ejemplos_t2">&lt;b></td>
+                <td class="ejemplos_t2">Pone el texto que este encerrando en negritas.</td>
+                <td class="ejemplos_t2">&lt;b>Estoy en negritas&lt;/b></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Base</td>
+                <td class="ejemplos_t2">&lt;base></td>
+                <td class="ejemplos_t2">Es un punto de referencia para todo tu documento</td>
+                <td class="ejemplos_t2">&lt;base href="https://www.ejemplo.com/"></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Fuente base</td>
+                <td class="ejemplos_t2">&lt;basefont></td>
+                <td class="ejemplos_t2">Crea una fuente base para tus letras pero es mejor usar el css para eso.</td>
+                <td class="ejemplos_t2 remplazar">Usa css para remplazar esto</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Bdi</td>
+                <td class="ejemplos_t2">&lt;bdi></td>
+                <td class="ejemplos_t2">Auizla un pedazo de texto para formatearlo de manera externa. <br>Puede que tu sistema no sea compatible.</td>
+                <td class="ejemplos_t2">&lt;bdi>ARABIC_PLACEHOLDER&lt;/bdi></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </table>
+    </article>
+    <footer>
+        <table>
+            <th class="fot"><a href="#" target="_blank">Contactanos</a></th>
+            <th class="fot"><a href="#" target="_blank">&copy;Pro gamer</a></th>
+        </table>
+    </footer>
+</body>
+</html>
