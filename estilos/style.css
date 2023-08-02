@@ -103,3 +103,58 @@ dl div{
     border-radius: 15px;
     background: rgba(0, 0, 0, 0.473);
 }
+
+.thtml{
+    font-size: 500px;
+    float: right;
+    color: rgb(255, 0, 0);
+    border: 10px ridge #808080;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.ejemplos{
+    border: #808080 dashed 3px;
+    float: left;
+    margin: 10px;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+mark{
+    background-color: green;
+}
+
+.ejemplos_t{
+    border-collapse: collapse;
+    position: relative;
+    left: 25vh;
+    border: 8px ridge #808080;
+    background: rgb(0,0,0,0.5);
+}
+
+.ejemplos_t3{
+    border-collapse: collapse;
+    border: 8px ridge #808080;
+    background: rgb(0,0,0,0.5);
+    margin: 50px 20px;
+}
+
+.ejemplos_t2{
+    border: #808080 solid 2px;
+    text-align: center;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.sin_ejemplo{
+    background-color: rgb(255,0,0,0.2);
+    color: #f00;
+}
+
+.remplazar{
+    background-color: rgba(0, 162, 255, 0.2);
+    color: #00f;
+}
