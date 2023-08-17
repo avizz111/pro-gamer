@@ -211,33 +211,169 @@
                 <td class="ejemplos_t2">Auizla un pedazo de texto para formatearlo de manera externa. <br>Puede que tu sistema no sea compatible.</td>
                 <td class="ejemplos_t2">&lt;bdi>ARABIC_PLACEHOLDER&lt;/bdi></td>
             </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
+            <tr>
+                <td class="ejemplos_t2">Bdo</td>
+                <td class="ejemplos_t2">&lt;bdo></td>
+                <td class="ejemplos_t2">Anula el algoritmo bidireccional para cuando se tiene que escribir en otros idiomas y aparte de un sentido al otro.</td>
+                <td class="ejemplos_t2">&lt;bdo dir="rtl" lang="ar">١٢٣٤٥٦٧٨٩٠&lt;/bdo></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Big</td>
+                <td class="ejemplos_t2">&lt;big></td>
+                <td class="ejemplos_t2">Aumenta el tamaño pero es mejor hacerlo mediante css.</td>
+                <td class="ejemplos_t2 remplazar">Usa css para remplazar esto</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Blockquote</td>
+                <td class="ejemplos_t2">&lt;blockquote></td>
+                <td class="ejemplos_t2">Cita el contenido de otro sitio web dentro de un bloque.</td>
+                <td class="ejemplos_t2">&lt;blockquote>&lt;p>La vida es lo que pasa mientras estamos haciendo otros planes.&lt;/p>&lt;cite>John Lennon&lt;/cite>&lt;/blockquote></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Cuerpo</td>
+                <td class="ejemplos_t2">&lt;body></td>
+                <td class="ejemplos_t2">Define el cuerpo de la esructura donde van todos los elementos visibles para el cliente.</td>
+                <td class="ejemplos_t2">&lt;body>&lt;p>Ahora soy visible&lt;/p>&lt;/body></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Salto de linea</td>
+                <td class="ejemplos_t2">&lt;br></td>
+                <td class="ejemplos_t2">Hace un salto de linea entre los elementos.<br>Este es un elemento vacio por lo cual solo existe la etiqueta de entrada.</td>
+                <td class="ejemplos_t2">&lt;p>Este es un &lt;br> salto de linea&lt;/p></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Boton</td>
+                <td class="ejemplos_t2">&lt;button></td>
+                <td class="ejemplos_t2">Crea un boton donde se puede hacer clikc.<br>Solo tiene funciones si se las agregas con javascript.</td>
+                <td class="ejemplos_t2">&lt;button>prueba&lt;/button></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Canvas</td>
+                <td class="ejemplos_t2">&lt;canvas></td>
+                <td class="ejemplos_t2">Aqui se crean lienzos para posteriormente manipularlos con javascript</td>
+                <td class="ejemplos_t2">&lt;canvas id="myCanvas" width="200" height="100">&lt;/canvas></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Caption</td>
+                <td class="ejemplos_t2">&lt;caption></td>
+                <td class="ejemplos_t2">Otorga un titulo para una tabla.</td>
+                <td class="ejemplos_t2">&lt;caption>soy el titulo de una tabla&lt;/caption></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Centrado</td>
+                <td class="ejemplos_t2">&lt;center></td>
+                <td class="ejemplos_t2">Centra el contenido que encierra la etiqueta.<br>Sin embargo ya no se usa y es mejor hacer esto mediante css.</td>
+                <td class="ejemplos_t2 remplazar">Usa css para remplazar esto.</td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Cita</td>
+                <td class="ejemplos_t2">&lt;cite></td>
+                <td class="ejemplos_t2">Sirve para referenciar a algun trabajob de otro autor.</td>
+                <td class="ejemplos_t2">&lt;cite>John Lennon&lt;/cite></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Código</td>
+                <td class="ejemplos_t2">&lt;code></td>
+                <td class="ejemplos_t2">Es una etiqueta semantica que indica que ese segmento es una parte de un codigo de algun lenguaje de programación sin especificar cual sea.</td>
+                <td class="ejemplos_t2">&lt;code>print("hola mundo")&lt;/code></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Columna</td>
+                <td class="ejemplos_t2">&lt;col</td>
+                <td class="ejemplos_t2">Especifica propiedades de atributos de las columnas de una tabla.</td>
+                <td class="ejemplos_t2">&lt;col style="background-color: red;"></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Grupo de columnas</td>
+                <td class="ejemplos_t2">&lt;colgroup></td>
+                <td class="ejemplos_t2">Define un grupo de columnas de una tabla para darles formato.</td>
+                <td class="ejemplos_t2">&lt;colgroup>&lt;col span="2" style="background-color: yellow;">&lt;col style="background-color: red;">&lt;/colgroup></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">lista desplegable</td>
+                <td class="ejemplos_t2">&lt;datalist></td>
+                <td class="ejemplos_t2">Crea una tabla de opciones para una caja input.</td>
+                <td class="ejemplos_t2">&lt;datalist id="codigos de programación">&lt;option value="python">&lt;option value="java">&lt;option value="c#">&lt;/datalist></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">dd</td>
+                <td class="ejemplos_t2">&lt;dd></td>
+                <td class="ejemplos_t2">Define un termino en una lista de definiciones.</td>
+                <td class="ejemplos_t2">&lt;dl>&lt;dt>css&lt;/dt>&lt;dd>Cascing style sheet&lt;/dd>&lt;/dl></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Eliminar</td>
+                <td class="ejemplos_t2">&lt;del></td>
+                <td class="ejemplos_t2">Tacha alguna parte del texto.</td>
+                <td class="ejemplos_t2">&lt;del>Estoy tachado&lt;/del></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Detalles</td>
+                <td class="ejemplos_t2">&lt;details></td>
+                <td class="ejemplos_t2">Crea un segmento detallado que se expande al darles click.</td>
+                <td class="ejemplos_t2">&lt;details>&lt;summary>Ver más información&lt;/summary>&lt;p>Aquí va el contenido que deseas mostrar u ocultar.&lt;/p>&lt;/details></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Dfn</td>
+                <td class="ejemplos_t2">&lt;dfn></td>
+                <td class="ejemplos_t2">Marca el termino o la definicion de algún significado.</td>
+                <td class="ejemplos_t2">&lt;p>La &lt;dfn>&lt;abbr title="Organización de las Naciones Unidas">ONU&lt;/abbr>&lt;/dfn> es una organización internacional fundada en 1945.&lt;/p>
+                </td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Dialogos</td>
+                <td class="ejemplos_t2">&lt;dialog></td>
+                <td class="ejemplos_t2">Crea una caja de dialogo.<br>Ocuparas javascript para que tenga función el cuadro de dialogo.</td>
+                <td class="ejemplos_t2">&lt;dialog id="mi-dialogo">&lt;/dialog></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Directorio</td>
+                <td class="ejemplos_t2">&lt;dir></td>
+                <td class="ejemplos_t2">Define una lista de directorios.<br>Es mejor usar una lista desordenada.</td>
+                <td class="ejemplos_t2">&lt;dir>&lt;li>Archivo 1&lt;/li>&lt;li>Archivo 2&lt;/li>&lt;li>Archivo 3&lt;/li>&lt;/dir></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Contenedor</td>
+                <td class="ejemplos_t2">&lt;div></td>
+                <td class="ejemplos_t2">El div es un contenedor donde se agrupan elementos.<br>Muchos desarrolladores front-end los utilizan para crear animaciones, fondos y figuras al cambiar sus caracteristicas.</td>
+                <td class="ejemplos_t2">&lt;div>&lt;p>Estoy dentro de este div&lt;/p>&lt;/div></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Lista de definiciones</td>
+                <td class="ejemplos_t2">&lt;dl></td>
+                <td class="ejemplos_t2">Crea una lista de difiniciones.</td>
+                <td class="ejemplos_t2">&lt;dl>&lt;dt>css&lt;/dt>&lt;dd>Cascing style sheet&lt;/dd>&lt;/dl></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Dt</td>
+                <td class="ejemplos_t2">&lt;dt></td>
+                <td class="ejemplos_t2">Define un termino en una lista de definiciones.</td>
+                <td class="ejemplos_t2">&lt;dl>&lt;dt>css&lt;/dt>&lt;dd>Cascing style sheet&lt;/dd>&lt;/dl></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Enfasis</td>
+                <td class="ejemplos_t2">&lt;em></td>
+                <td class="ejemplos_t2">Le da un enfazis a un texto.<br>aunque a simple vista solo es una regla semantica esto sirve para las ia al saber que esto es importante.</td>
+                <td class="ejemplos_t2">&lt;p>&lt;em>soy especial&lt;/em>&lt;/p></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">Embed</td>
+                <td class="ejemplos_t2">&lt;embed></td>
+                <td class="ejemplos_t2">Crea un contenedor para una aplicación externa.</td>
+                <td class="ejemplos_t2">&lt;embed src="ejemplo.mp3" autostart="false" height="60" width="144"></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">fieldset</td>
+                <td class="ejemplos_t2">&lt;fieldset></td>
+                <td class="ejemplos_t2">agrupa campos de formulario relacionados entre si.</td>
+                <td class="ejemplos_t2">&lt;fieldset>&lt;legend>Información Personal&lt;/legend>Nombre: &lt;input name='nombre' type='text' tabindex='1'>Apellidos: &lt;input name='apellidos' type='text' tabindex='2'>&lt;/fieldset></td>
+            </tr>
+            <tr>
+                <td class="ejemplos_t2">figcaption</td>
+                <td class="ejemplos_t2">&lt;figcaption></td>
+                <td class="ejemplos_t2">Da una leyenda a una figura.<br>Solo que este es opcional.</td>
+                <td class="ejemplos_t2"><figure>&lt;img src="imagen.jpg" alt="Descripción de la imagen">&lt;figcaption>Descripción de la imagen&lt;/figcaption>&lt;/figure></td>
+            </tr>
             <tr></tr>
             <tr></tr>
             <tr></tr>
