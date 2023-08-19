@@ -9,7 +9,6 @@
 video{
     z-index: -1;
     position: fixed;
-    font-size: 50vh;
 }
 
 img{
@@ -33,7 +32,9 @@ i{
     background-color: aqua;
     font-size: 90px;
     padding: 5px;
-    margin: 0px 49%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 footer{
