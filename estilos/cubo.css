@@ -229,7 +229,7 @@
     filter: blur(20px);
     box-shadow: 0 0 120px rgb(167, 17, 208,0.2), 0 0 200px rgb(167, 17, 208,0.4), 0 0 300px rgb(167, 17, 208,0.6), 0 0 400px rgb(167, 17, 208,0.8), 0 0 500px rgb(167, 17, 208,1);
 }
-/*piramide azul*/
+/*piramide naranga*/
 .piramide
 {
     z-index: -1;
